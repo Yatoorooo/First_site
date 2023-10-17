@@ -66,6 +66,14 @@ ul {
   color: #fff;
   padding: 23px 53px;
   border-radius: 61px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: transparent;
+
+  box-shadow: 5px 5px 10px 1px #f00;
 }
 
 .conteiner {
