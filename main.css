@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* text style */
+/* about me section */
+.about_me_content {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 39px;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #a8a8a8;
+  margin-bottom: 58px;
+}
+.h5 {
+  font-size: 21px;
+  font-weight: 500;
+}
+.txt_sm {
+  font-size: 13px;
+  font-weight: 400;
+}
+.txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164.063%;
+  max-width: 540px;
+}
+.txt_grey {
+  color: #dcdcdc;
+}
+.txt_black {
+  color: #151515;
+}
+.txt_white {
+  color: #fff;
+}
+.button {
+  background-color: #f00;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%; /* 26.25px */
+  letter-spacing: 1.6px;
+  color: #fff;
+  padding: 23px 53px;
+  border-radius: 61px;
+}
+
+.conteiner {
+  max-width: 1342px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+/* section style */
+.first_section {
+  background-color: #151515;
+}
+/* Navigation section */
+
+.nav {
+  padding-top: 72px;
+  margin-bottom: 175px;
+}
+
+.nav_item {
+  display: inline-block;
+  margin-right: 28px;
+}
+.nav_link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.nav_link.active {
+  color: #f00;
+}
+
+.nav_link:hover {
+  color: #f00;
+}
+/* main style */
+.main {
+  padding-bottom: 276px;
+}
+.main_h2 {
+  margin-bottom: 50px;
+}
+
+/* About me */
+.about_me {
+  padding: 116px 0;
+}
+
+.about_me_h2 {
+  margin-bottom: 46px;
+}
+.main_txt {
+  margin-bottom: 39px;
+}
+.skills {
+  background-color: #151515;
+  padding: 115px 0;
+}
+.skills_list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.skills_item {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+.skills_text {
+  max-width: 103px;
+}
+/* process h2 */
+.process {
+  padding: 37px 0 127px;
+}
+.process_h2 {
+  margin-bottom: 43px;
+}
+.process_content {
+  margin-bottom: 50px;
+}
+
+.iframe {
+  max-width: 1253px;
+  height: 731px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  box-shadow: 15px 14px 36px 4px black;
+  border-radius: 9px;
+}
+.footer {
+  background-color: #151515;
+  padding: 59px 0px 53px;
+}
+.footer_h2 {
+  margin-bottom: 5px;
+}
